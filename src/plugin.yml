@@ -10,10 +10,8 @@ folia-supported: true
 commands:
   chatfeelings:
     description: General command for chatfeelings.
-    aliases: [ cf ]
   feelings:
     description: Lists all the feelings you can do!
-    aliases: [ emotions ]
   hug:
     description: Gives somebody a nice warm hug!
   slap:

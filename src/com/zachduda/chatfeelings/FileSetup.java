@@ -730,6 +730,17 @@ public class FileSetup {
         setEmotesDouble("Feelings.Welcomeback.Sounds.Sound2.Volume", 0.0);
         setEmotesDouble("Feelings.Welcomeback.Sounds.Sound2.Pitch", 0.0);
 
+        setEmotesBoolean("Feelings.Bonk.Enable", true);
+        setEmotes("Feelings.Bonk.Msgs.Sender", "&7You grabbed a stick... and &c&lBONKED &2&l%player%&7!");
+        setEmotes("Feelings.Bonk.Msgs.Target", "&7You got &c&lBONKED &7by &6&l%player%&7!");
+        setEmotes("Feelings.Bonk.Msgs.Global",  "&6&l%sender% &7grabbed the nearest stick and &c&lBONKED &2&l%target%&7!!!");
+        setEmotes("Feelings.Bonk.Sounds.Sound1.Name", "UI_BUTTON_CLICK");
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound1.Volume", 2.0);
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound1.Pitch", 0.1);
+        setEmotes("Feelings.Bonk.Sounds.Sound2.Name", "None");
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound2.Volume", 0.0);
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound2.Pitch", 0.0);
+
         setEmotesVersion(6);
         reloadFiles();
     }
